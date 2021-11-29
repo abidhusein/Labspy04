@@ -62,4 +62,4 @@ print (68*"=")
 ```
 - ### Output
 
-[img 2](screenshot/2.png)
+[img 2](screenshot/4.png)
