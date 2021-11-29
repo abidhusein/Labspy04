@@ -51,4 +51,15 @@ print("| {0:^3} | {1:^12} | {2:^9} | {3:^5} | {4:^5} | {5:^5} | {6:^7} |".format
 print (68*"=")
 ```
 
-- 
+- Membuat isi table sesuai dengan inisialisi diatas, dengan format string agar terlihat rapih
+
+```bash
+no = 0
+for nama, nim, tugas, uts, uas, akhir in zip (list_nama, list_nim, list_tugas, list_uts, list_uas, rata):
+    no += 1
+    print ("| {0:>3} | {1:<12} | {2:>9} | {3:>5} | {4:>5} | {5:>5} | {6:>7} |".format(no, nama, nim, tugas, uts, uas, akhir))
+print (68*"=")
+```
+- ### Output
+
+[img 2](screenshot/2.png)
